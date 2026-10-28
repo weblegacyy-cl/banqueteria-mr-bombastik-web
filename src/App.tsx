@@ -176,7 +176,7 @@ const venues = [
     place: 'Padre Hurtado',
     detail: 'Parcela rústica, salón elegante y pérgola para ceremonias rodeada de áreas verdes.',
     icon: '✦',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/padre%20hurtaod%20salom-yuwKAXpVH4BSXcUpioP77Qa3CGi9G9.jpg',
+    image: '/images/venue_espacio_rustico.jpg',
   },
   {
     id: 1,
@@ -184,15 +184,15 @@ const venues = [
     place: 'Maipú',
     detail: 'Amplias áreas verdes, piscina, salón techado y mobiliario de banquetería de primer nivel.',
     icon: '◒',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2f672938-7ceb-4a41-8a6e-e546092e3605-FHkQsR8EtNbFEVp0sMpsMSwi6l2xco.jpg',
+    image: '/images/venue_mi_campo_rinconada.jpg',
   },
   {
     id: 2,
     name: 'Club 59',
     place: 'Quinta Normal',
-    detail: 'Nuestro nuevo local: salón de eventos exclusivo, pista iluminada y ambientación premium.',
+    detail: 'Nuestro nuevo salón de eventos exclusivo con pista iluminada y ambientación premium.',
     icon: '✧',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/quinta%20normal-5mdoUJyAXLbMhD4HK7ysG185uuQNlE.jpg',
+    image: '/images/venue_club_59.jpg',
   },
   {
     id: 3,
@@ -200,7 +200,7 @@ const venues = [
     place: 'Donde tú quieras',
     detail: 'Llevamos la producción y banquetería completa a tu domicilio, parcela o terreno particular.',
     icon: '⌂',
-    image: '/assets/venues/tu_propio_lugar.jpg',
+    image: '/images/venue_tu_propio_lugar.jpg',
   },
 ]
 
@@ -721,7 +721,7 @@ export default function Page() {
             {/* LOGO OFICIAL MR BOMBASTIK - SIEMPRE VISIBLE EN TABLET, CELULAR Y COMPUTADOR */}
             <div className="relative flex shrink-0 items-center justify-center transition duration-300 group-hover:scale-105">
               <img
-                src="/assets/aistudio/logo_eventos_07a928c3.png"
+                src="/images/logo_mrbombastik.png"
                 alt="MR Bombastik - Coctelería Profesional y Alta Banquetería"
                 width={56}
                 height={56}
@@ -791,14 +791,13 @@ export default function Page() {
             // @ts-expect-error webkit-playsinline for iOS Safari
             webkit-playsinline="true"
             preload="auto"
-            poster="/assets/aistudio/hero_video_poster.jpg"
+            poster="/images/hero_poster.jpg"
             onPlay={() => setIsVideoPlaying(true)}
             onPause={() => setIsVideoPlaying(false)}
             className="h-full w-full object-cover object-center"
           >
-            <source src="/assets/aistudio/hero_video_mobile.mp4" type="video/mp4" />
-            <source src="/assets/aistudio/hero_video_optimized.mp4" type="video/mp4" />
-            <source src="/assets/aistudio/we_video_fondo_ddb99096.mp4" type="video/mp4" />
+            <source src="/videos/hero_video_mobile.mp4" type="video/mp4" />
+            <source src="/videos/hero_video_desktop.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-gradient-to-t from-[#090909] via-[#090909]/55 to-[#090909]/70" />
           <div className="absolute inset-0 bg-black/35" />
@@ -821,9 +820,9 @@ export default function Page() {
 
         <div className="relative z-10 mx-auto max-w-5xl text-center flex flex-col items-center">
           <h1 className="font-serif text-4xl sm:text-6xl md:text-7xl lg:text-8xl leading-[1.12] sm:leading-[1.08] tracking-tight text-white max-w-4xl mx-auto drop-shadow-[0_4px_30px_rgba(0,0,0,0.8)]">
-            No Hacemos fiestas, <br className="hidden sm:inline" />
+            No hacemos fiestas, <br className="hidden sm:inline" />
             <span className="block mt-2 sm:mt-3 bg-gradient-to-r from-[#e7cb76] via-[#fff3b8] to-[#d4af37] bg-clip-text text-transparent italic font-light drop-shadow-[0_4px_28px_rgba(212,175,55,0.4)]">
-              creamos grandes Historias
+              creamos grandes historias
             </span>
           </h1>
 
@@ -2286,7 +2285,7 @@ export default function Page() {
         <div className="mx-auto flex max-w-7xl flex-col justify-between gap-6 sm:flex-row sm:items-center">
           <div className="flex items-center gap-4">
             <img
-              src="/assets/aistudio/logo_eventos_07a928c3.png"
+              src="/images/logo_mrbombastik.png"
               alt="MR Bombastik"
               className="size-14 object-contain"
             />

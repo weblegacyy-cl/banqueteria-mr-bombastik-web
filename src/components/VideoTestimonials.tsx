@@ -24,9 +24,9 @@ const VIDEOS: VideoItem[] = [
     title: 'Saludo Oficial de Artista',
     badge: 'Artista VIP',
     role: 'DJ & Productor Internacional',
-    quote: 'En tremenda actividad junto a la comunidad, Pablito Pesadilla envía un gran saludo reconociendo la energía y profesionalismo de Mr Bombastik.',
-    src: '/assets/aistudio/Pablito_pesadilla_saluda_a_Mr_Bombastik__en_tremenda_actividad_que_desarrollamos_junto_a_la_comu_9411f47a.mp4',
-    poster: '/assets/aistudio/thumb_pablito.jpg',
+    quote: 'En una actividad junto a la comunidad, Pablito Pesadilla envía un saludo destacando la energía, puesta en escena y profesionalismo de MR Bombastik.',
+    src: '/videos/saludo_pablito.mp4',
+    poster: '/images/thumb_pablito.jpg',
     duration: '0:09'
   },
   {
@@ -37,8 +37,8 @@ const VIDEOS: VideoItem[] = [
     badge: 'Figura Pública',
     role: 'Creador de Contenido & Crítico',
     quote: 'Presente en el gran evento social en Maipú, evaluando en directo el sabor, la mixología de autor y la puesta en escena de nuestras barras.',
-    src: '/assets/aistudio/Hoy_en_el_gran_evento_social_que_acompa_amos__en_Maip___OTAKIN_pudo_evaluar_nuestra_cocteler_a_y_34f4d1fb.mp4',
-    poster: '/assets/aistudio/thumb_otakin.jpg',
+    src: '/videos/saludo_otakin.mp4',
+    poster: '/images/thumb_otakin.jpg',
     duration: '0:11'
   },
   {
@@ -48,9 +48,9 @@ const VIDEOS: VideoItem[] = [
     title: 'Celebración 15 Años Renata',
     badge: 'Experiencia Real',
     role: 'Padres & Familia Anfitriona',
-    quote: 'Agradecemos profundamente el compromiso y excelencia de Mr Bombastik: hicieron realidad el sueño de los 15 de la Renata con un banquete y servicio inolvidable.',
-    src: '/assets/aistudio/Gracias_por_la_confianza__mr_bombastik_eventos_banqueteriachile__matrimonios__graduacioneschile__c7a9d211.mp4',
-    poster: '/assets/aistudio/thumb_15anos.jpg',
+    quote: 'Agradecemos profundamente el compromiso y la excelencia de MR Bombastik: hicieron realidad el sueño de los 15 años de Renata con un banquete y servicio inolvidable.',
+    src: '/videos/testimonio_15anos.mp4',
+    poster: '/images/thumb_15anos.jpg',
     duration: '0:38'
   },
   {
@@ -61,8 +61,8 @@ const VIDEOS: VideoItem[] = [
     badge: 'Experiencia Real',
     role: 'Novios & Familias Satisfechas',
     quote: 'La emoción de comprobar que todo salió perfecto: banquetería de primer nivel, tiempos coordinados al segundo y un equipo con vocación de servicio.',
-    src: '/assets/aistudio/Nos_da_tanta_alegr_a_saber_que_Gracias_a_Dios_hoy_estamos_haciendo_las_cosas_bien._Mr_Bombastik__8197ea25.mp4',
-    poster: '/assets/aistudio/thumb_testimonio.jpg',
+    src: '/videos/testimonio_matrimonio.mp4',
+    poster: '/images/thumb_testimonio.jpg',
     duration: '0:49'
   },
   {
@@ -73,8 +73,8 @@ const VIDEOS: VideoItem[] = [
     badge: 'Experiencia Real',
     role: 'Experiencia Real de Clientes',
     quote: 'Barras móviles iluminadas, show de coctelería y una banquetería impecable que hizo disfrutar a todos nuestros invitados al máximo.',
-    src: '/assets/aistudio/Somos__mrbombastikchile_pagina_2afb0975.mp4',
-    poster: '/assets/aistudio/thumb_somos.jpg',
+    src: '/videos/somos_mrbombastik.mp4',
+    poster: '/images/thumb_somos.jpg',
     duration: '0:15'
   }
 ]
